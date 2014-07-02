@@ -16,7 +16,7 @@
     "lodash": "~2.4.1",
     "node-uuid": "~1.4.1",
     "simple-node-logger": "^0.9.6",
-    "socket-model": "^0.9.17"
+    "socket-model": "^0.9.19"
   },
   "devDependencies": {
     "casual": "^1.4.5",
