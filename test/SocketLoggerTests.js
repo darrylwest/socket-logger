@@ -38,7 +38,7 @@ describe('SocketLogger', function() {
         it('should have all expected methods by size and type', function() {
             dash.methods( logger ).length.should.equal( methods.length );
             methods.forEach(function(method) {
-                client[ method ].should.be.a( 'function' );
+                logger[ method ].should.be.a( 'function' );
             });
         });
     });
