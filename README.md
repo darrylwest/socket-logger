@@ -44,18 +44,10 @@ SocketLogger provides a log target that accepts domain specific log statements a
 
 ## Log Manager
 
-### The Socket File
 
-### Target Destinations
 
-### Examples
+## Log Client
 
-## Logger
 
-### Levels
-
-### Targets
-
-### Examples
 - - -
 _<small>Copyright (c) 2014, rain city software | Version 00.9.11</small>_
