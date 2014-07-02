@@ -11,12 +11,9 @@ var should = require('chai').should(),
 describe('SocketLogger', function() {
     'use strict';
 
-    var log = require('simple-node-logger' ).createLogger();
-
     var createOptions = function() {
         var opts = {};
 
-        opts.log = log;
         opts.socketFile = '/tmp/test.logger.sock';
 
         return opts;
