@@ -6,7 +6,8 @@
  */
 var should = require('chai').should(),
     dash = require('lodash' ),
-    SocketLogger = require('../lib/SocketLogger' );
+    SocketLogger = require('../lib/SocketLogger' ),
+    LogServer = require('../lib/LogServer');
 
 describe('SocketLogger', function() {
     'use strict';
@@ -37,6 +38,16 @@ describe('SocketLogger', function() {
             methods.forEach(function(method) {
                 logger[ method ].should.be.a( 'function' );
             });
+        });
+    });
+
+    describe('createServer', function() {
+        var logger = new SocketLogger( createOptions() );
+
+        it('should create an instance of LogServer', function() {
+            var server = logger.createServer();
+            should.exist( server );
+            server.should.be.instanceof( LogServer );
         });
     });
 });

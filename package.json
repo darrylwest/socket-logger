@@ -1,7 +1,7 @@
 {
   "name": "socket-logger",
   "version": "0.9.11",
-  "description": "A central log target to consolidate multiple service containers on a single machine.",
+  "description": "A central log target implemented in unix sockets to consolidate multiple service containers on a single machine.",
   "main": "index.js",
   "keywords": [
     "sockets",

@@ -1,7 +1,7 @@
 # Socket Logger
 - - -
 
-A central log target to consolidate multiple service containers on a single machine.
+A central log target implemented in unix sockets that consolidates multiple service container logs on a single machine.
 
 ## Overview
 
