@@ -14,6 +14,8 @@ describe('LogManager', function() {
     var createOptions = function() {
         var opts = {};
 
+        opts.domain = 'MyService';
+
         return opts;
     };
 
