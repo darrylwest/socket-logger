@@ -1,5 +1,5 @@
 /**
- *
+ * @class LogManagerTests
  *
  * @author: darryl.west@raincitysoftware.com
  * @created: 7/5/14 3:54 PM
