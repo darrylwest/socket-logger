@@ -26,6 +26,7 @@ describe('Logger', function() {
         var logger = new Logger( createOptions() ),
             methods = [
                 'log',
+                'createEntry',
                 'setLevel',
                 'getLevel',
                 'setAppenders',
