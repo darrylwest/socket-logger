@@ -22,7 +22,13 @@ describe('Logger', function() {
     describe('#instance', function() {
         var logger = new Logger( createOptions() ),
             methods = [
-                'log'
+                'log',
+                'setLevel',
+                'getLevel',
+                'setAppenders',
+                'addAppender',
+                'removeAppender',
+                'getAppenders'
             ];
 
         it('should create an instance of Logger', function() {
