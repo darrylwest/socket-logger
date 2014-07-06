@@ -35,13 +35,14 @@ describe('ConsoleAppender', function() {
         var appender = new ConsoleAppender( createOptions() ),
             methods = [
                 'formatter',
-                'write'
+                'write',
+                'getTypeName'
             ];
 
         it('should create an instance of ConsoleAppender', function() {
             should.exist( appender );
             appender.should.be.instanceof( ConsoleAppender );
-
+            appender.getTypeName().should.equal('ConsoleAppender');
         });
 
         it('should have all expected methods by size and type', function() {
