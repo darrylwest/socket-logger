@@ -7,7 +7,7 @@ var SocketLogger = require('../lib/SocketLogger'),
 
 manager = new SocketLogger( { socketFile:'/tmp/socket-logger-test.sock' } ).createLogManager('ExampleApp');
 
-log = manager.createLogger('Example');
+log = manager.createSimpleLogger('Example');
 log.setLevel('all');
 
 log.trace('trace this...');
