@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+'use strict';
 
 var SocketLogger = require('../lib/SocketLogger'),
     manager,
@@ -7,7 +8,7 @@ var SocketLogger = require('../lib/SocketLogger'),
 
 manager = new SocketLogger( { socketFile:'/tmp/socket-logger-test.sock' } ).createLogManager('ExampleApp');
 
-log = manager.createSimpleLogger('Example');
+log = manager.createLogger('Example');
 log.setLevel('all');
 
 log.trace('trace this...');
