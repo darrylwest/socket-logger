@@ -23,7 +23,11 @@ describe('LogManager', function() {
         var manager = new LogManager( createOptions() ),
             methods = [
                 'createLogger',
-                'setAllLevels'
+                'setAllLevels',
+                'addAppender',
+                'getAppenders',
+                'getLoggers',
+                '__protected'
             ];
 
         it('should create an instance of LogManager', function() {
