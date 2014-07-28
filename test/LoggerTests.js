@@ -8,7 +8,7 @@ var should = require('chai').should(),
     dash = require( 'lodash' ),
     casual = require( 'casual' ),
     Logger = require('../lib/Logger' ),
-    MockAppender = require( './mocks/MockAppender');
+    MockAppender = require( 'simple-node-logger' ).mocks.MockAppender;
 
 describe('Logger', function() {
     'use strict';

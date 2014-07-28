@@ -1,2 +1,2 @@
-// just the logger...
+
 module.exports = require('./lib/SocketLogger');
