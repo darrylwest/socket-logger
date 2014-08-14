@@ -50,4 +50,4 @@ SocketLogger provides a log target that accepts domain specific log statements a
 
 
 - - -
-_<small>Copyright (c) 2014, rain city software | Version 00.90.11</small>_
+_<small>Copyright (c) 2014, rain city software | Version 00.90.12</small>_

@@ -1,6 +1,6 @@
 {
   "name": "socket-logger",
-  "version": "0.90.11",
+  "version": "0.90.12",
   "description": "A central log target implemented in unix sockets to consolidate multiple service containers on a single machine.",
   "main": "index.js",
   "keywords": [
@@ -32,6 +32,7 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt-jsdoc": "^0.5.4",
     "grunt-mocha-test": "~0.8.1",
+    "grunt-nsp-package": "0.0.5",
     "jshint-stylish": "~0.1.3",
     "load-grunt-tasks": "~0.1.0",
     "mocha": "~1.16.2",
