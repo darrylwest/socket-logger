@@ -13,7 +13,7 @@
   ],
   "dependencies": {
     "commander": "^2.2.0",
-    "lodash": "~2.4.1",
+    "lodash": "^3.0.0",
     "moment": "^2.7.0",
     "node-uuid": "~1.4.1",
     "simple-node-logger": "^0.91.84",
